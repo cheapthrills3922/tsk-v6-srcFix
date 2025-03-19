@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wrapper-nav-contact">
+                <ul class="nav-contact">
+                    <li onclick="window.open('tel:900300400')" ; rel="noopener noreferrer" target="_blank">
+                        <i class="fas fa-phone"></i>+91 9324614050
+                    </li>
+                    <li onclick="window.open('mailto:info@toursketchers.com')" ; rel="noopener noreferrer"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>info@toursketchers.com
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper-nav-bar">
+                <ul class="nav-bar">
+                    <a class="logo" href="index.html">
+                        <img src="./assets/img/logo/tour-sketchers-logo.png" alt="tour sketchers logo" />
+                    </a>
+                    <input type="checkbox" id="check" />
+                    <span class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="social-media1">
+                            <a href="https://www.instagram.com/toursketchers?igsh=MTY4dzMwdXBtZDEzcQ=="><i
+                                    class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61560089112858&mibextid=ZbWKwL"><i
+                                    class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                        </li>
+                        <label for="check" class="close-menu">
+                            <i class="fas fa-times fa-lg"></i>
+                        </label>
+                    </span>
+                    <div class="social-media2">
+                        <a href="https://www.instagram.com/toursketchers?igsh=MTY4dzMwdXBtZDEzcQ=="><i
+                                class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61560089112858&mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                    </div>
+                    <label for="check" class="open-menu">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="contact-banner">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div class="row">
+                <div class="column contact-details">
+                    <div class="detail-group">
+                        <div class="details-icon">
+                            <i class="fa-solid fa-phone fa-2x"></i>
+                        </div>
+                        <div class="details-info">
+                            <span class="details-label">Phone</span>
+                            <span>+91 9324614050</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-group">
+                        <div class="details-icon">
+                            <i class="fa-solid fa-envelope fa-2x"></i>
+                        </div>
+                        <div class="details-info">
+                            <span class="details-label">Email</span>
+                            <span>info@toursketchers.com</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-group">
+                        <div class="details-icon">
+                            <i class="fa-solid fa-location-dot fa-2x"></i>
+                        </div>
+                        <div class="details-info">
+                            <span class="details-label">Address</span>
+                            <span>Shop No-27, Amrat Bldg., Jaywant Sawant Road,
+                                Dahisar West, Mumbai-400068.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+                <div class="column contact-form">
+                    <h2 style="text-align: center;">Get in Touch</h2>
+
+                    <form action="https://formbold.com/s/9gAa4" method="POST">
+
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name.." required>
+
+                            <!-- <label for="number">Phone</label>
+                            <input type="text" id="number" name="number" placeholder="Your Phone Number.. (Optional)"> -->
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email.." required>
+
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write Something.." required></textarea>
+
+                            <!-- Honeypot Spam Protection -->
+                            <!-- <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> -->
+
+                            <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                            <!-- <div class="h-captcha" data-captcha="true"></div> -->
+
+                            <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+                            <div class="g-recaptcha" data-sitekey="6LfLlwoqAAAAAN7I2o0Svqr-_Atgkx8bSdLgAgCO"></div>
+
+                            <button type="submit" id="submit" value="Submit">Submit</button>
+                        </form>
+                </div>
+            </div>
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevtG7oQBreo9o10bpvXMuriqdQNXehIRb4HybZUjFO0roMgw/viewform?embedded=true" width="640" height="824" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+            <h3>Office Location</h3>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1026.9755856749214!2d72.85849354566125!3d19.240445127450275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0dc2e86e3f1%3A0xc360a16e6add121c!2sAmrat%20Co-op%20Housing%20Society%20Ltd.!5e0!3m2!1sen!2sin!4v1720394888653!5m2!1sen!2sin"
+                    width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="index.html"><img src="./assets/img/logo/tour-sketchers-logo.png"
+                        alt="tour sketchers logo" /></a>
+            </div>
+            <div class="footer-destinations">
+                <h3>Destinations</h3>
+                <div class="content">
+                    <div class="list">
+                        <a href="./destination/auli.html">Auli</a>
+                        <a href="./destination/nainital.html">Nainital</a>
+                        <a href="./destination/kausani.html">Kausani</a>
+                        <a href="./destination/rishikesh.html">Rishikesh</a>
+                        <a href="./destination/chamoli.html">Chamoli</a>
+                        <a href="./destination/munsyari.html">Munsyari</a>
+                    </div>
+                    <div class="list">
+                        <a href="./destination/chakrata.html">Chakrata</a>
+                        <a href="./destination/almora.html">Almora</a>
+                        <a href="./destination/mussoorie.html">Mussoorie</a>
+                        <a href="./destination/lansdowne.html">Lansdowne</a>
+                        <a href="./destination/corbett-national-park.html">Corbett National Park</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <div class="content">
+                    <span onclick="window.open('tel:900300400')" ; rel="noopener noreferrer" target="_blank">
+                        <i class="fas fa-phone"></i>+91 9324614050
+                    </span>
+                    <span onclick="window.open('mailto:info@toursketchers.com')" ; rel="noopener noreferrer"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>info@toursketchers.com
+                    </span>
+                </div>
+            </div>
+            <div class="footer-social-media">
+                <h3>Follow us on</h3>
+                <span>
+                    <a href="https://www.instagram.com/toursketchers?igsh=MTY4dzMwdXBtZDEzcQ=="><i
+                            class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61560089112858&mibextid=ZbWKwL"><i
+                            class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>Copyright &copy; 2024 Tour Sketchers All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/4de880f54b.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <!-- <script src="https://web3forms.com/client/script.js" async defer></script> -->
+    <!-- <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+body {
+
+    .destinations {
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .destinations-banner {
+            display: flex;
+            justify-content: center;
+
+            // max-width: 1400px;
+            width: 100%;
+            // height: 40vh;
+            height: 40vh;
+            // background: 
+            // linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+            // no-repeat center url("../img/main-pages/world-map.jpg");
+            // background-size: cover;
+
+            @media (max-width:600px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/mobile/tinified/world-map.jpg");
+                background-size: cover;
+            }
+
+            @media (min-width:601px) and (max-width:1400px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/hd/tinified/world-map.jpg");
+                background-size: cover;
+            }
+
+            @media (min-width:1401px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/fhd/tinified/world-map.jpg");
+                background-size: cover;
+            }
+
+            h1 {
+                text-align: center;
+                position: relative;
+                top: 22.5vh;
+                // top: 25vh;
+                color: white;
+                font-size: 3rem;
+            }
+        }
+
+        .cards {
+            // width: 100%;
+            width: 90%;
+            max-width: 1400px;
+            // max-width: 1400px;
+            gap: 1.5rem;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: start;
+            // flex-wrap: wrap;
+            // margin: 2rem auto 0 auto;
+            padding: 5rem 2rem;
+            margin: 0 auto;
+            display: grid;
+            place-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+            .card {
+                background-color: white;
+                color: black;
+                // width: 18rem;
+                width: 17rem;
+                border: 1px solid lightgrey;
+                border-radius: 8px;
+                // h1 overlapping card
+                z-index: 2; 
+                overflow: hidden;
+                
+                // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                // width: 80%;
+                // padding: 1rem;
+                // height: 22rem;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        // width: 16rem;
+                        width: 100%;
+                        height: 10rem;
+                        border-radius: 8px 8px 0px 0px;
+                        object-fit: cover;
+                        transition: 0.2s ease-in-out;
+                        
+
+                        // &:hover {
+                        //     transform: scale(1.1);
+                        // }
+                    }
+                }
+                
+
+                .card-body {
+                    padding: 1rem;
+                }
+
+                .card-title {
+                    font-size: 1.2rem;
+                    font-family: sans-serif;
+                    margin-bottom: 0.5rem;
+                    display: inline-block;
+                    color: rgb(15, 15, 15);
+                    
+                    // &:hover {
+                    //     color: $logo-blue;
+                    // }
+                }
+
+                .card-text {
+                    font-size: 0.9rem;
+                    line-height: 1.5;
+                    margin-bottom: 1rem;
+                    height: 7rem;
+                    overflow: hidden;
+                }
+
+                .card-btn {
+                    background-color: $logo-blue;
+                    color: white;
+                    font-size: 0.9rem;
+                    padding: 0.65rem 0.75rem;
+                    // margin-bottom: 1rem;
+                    border: none;
+                    border-radius: 5px;
+                    position: relative;
+                    bottom: 0.5rem;
+                    transition: 0.15s ease-in-out;
+
+                    &:hover {
+                        background-color: #2a79da;
+                        // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+                        // box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        transition: 0.15s ease-in-out;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// @media (min-width: 700px) {
+//     .cards { grid-template-columns: repeat(2, 1fr); }
+// }
+
+// @media (min-width: 1000px) {
+//     .cards { grid-template-columns: repeat(3, 1fr); }
+// }
+
+// @media (min-width: 1320px) {
+//     .cards { grid-template-columns: repeat(4, 1fr); }
+// }
+

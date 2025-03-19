@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+    // Check for Content Overflow Issues 
+    // outline: 1px solid red;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+$logo-blue: #437bbe;
+$logo-yellow: #ffd347;
+$logo-green: #8bce34;
+$logo-brown: #dd7f66;
+
+$logo-light-blue: #9fe0ed;
+$logo-bright-blue: #62dbfb;
+$logo-dark-grey: #6186a6;
+$bg: #eeeeee; 

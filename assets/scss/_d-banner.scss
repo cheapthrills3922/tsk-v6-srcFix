@@ -1,0 +1,595 @@
+
+//  css code to load banner image through html img tag.
+//  encapsulate the image with .banner-image div.
+//  then remove .location-banner from html code and from this file.
+
+// .banner-image {
+//                 width: 100%;
+//                 height: 100%;
+//                 position: relative;
+//                 display: inline-block;
+
+//                 &::after {
+//                     content:'';
+//                     position:absolute;
+//                     left:0; top:0;
+//                     width:100%; height:100%;
+//                     display:inline-block;
+//                     background: linear-gradient(to right, rgba(black, 0.7), rgba(black, 0.3));
+//                 }
+
+//                 img {
+//                     width: 100%;
+//                     height: 100%;
+//                     object-fit: cover;
+//                     display:block;
+//                 }
+// }      
+
+// h1 {
+    // position: absolute;
+    // top: 12rem;
+    // top: 185px;
+
+    // @media (max-width:480px) {
+        // top: 170px;
+    // }
+// }
+// ----------
+
+
+
+// International Destination Banners
+
+.abu-dhabi-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/skyline-across-water-in-abu-dhabi.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/skyline-across-water-in-abu-dhabi.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/skyline-across-water-in-abu-dhabi.jpg");
+        background-size: cover;
+    }
+}
+
+.australia-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/aerial-view-of-sydney.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/aerial-view-of-sydney.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/aerial-view-of-sydney.jpg");
+        background-size: cover;
+    }
+}
+
+.azerbaijan-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/night-view-of-baku.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/night-view-of-baku.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/night-view-of-baku.jpg");
+        background-size: cover;
+    }
+}
+
+.bali-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/coastal-town-in-bali.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/coastal-town-in-bali.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/coastal-town-in-bali.jpg");
+        background-size: cover;
+    }
+}
+
+.dubai-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/cityscape-with-burj-khalifa.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/cityscape-with-burj-khalifa.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/cityscape-with-burj-khalifa.jpg");
+        background-size: cover;
+    }
+}
+
+.hong-kong-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/beautiful-view-in-hong-kong.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/beautiful-view-in-hong-kong.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/beautiful-view-in-hong-kong.jpg");
+        background-size: cover;
+    }
+}
+
+.malaysia-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/aerial-view-of-malaysia.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/aerial-view-of-malaysia.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/aerial-view-of-malaysia.jpg");
+        background-size: cover;
+    }
+}
+
+.maldives-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/scenic-island-in-maldives.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/scenic-island-in-maldives.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/scenic-island-in-maldives.jpg");
+        background-size: cover;
+    }
+}
+
+.mauritius-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/sunrise-view-from-a-resort.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/sunrise-view-from-a-resort.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/sunrise-view-from-a-resort.jpg");
+        background-size: cover;
+    }
+}
+
+.oman-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/castle-ruins-in-oman-among-palm-trees.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/castle-ruins-in-oman-among-palm-trees.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/castle-ruins-in-oman-among-palm-trees.jpg");
+        background-size: cover;
+    }
+}
+
+.saudi-arabia-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/mosque-in-saudi-arabia-at-night.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/mosque-in-saudi-arabia-at-night.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/mosque-in-saudi-arabia-at-night.jpg");
+        background-size: cover;
+    }
+}
+
+.singapore-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/indoor-garden-in-singapore.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/indoor-garden-in-singapore.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/indoor-garden-in-singapore.jpg");
+        background-size: cover;
+    }
+}
+
+.sri-lanka-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/green-mountains-in-sri-lanka.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/green-mountains-in-sri-lanka.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/green-mountains-in-sri-lanka.jpg");
+        background-size: cover;
+    }
+}
+
+.thailand-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/buddha-statue-in-thailand.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/buddha-statue-in-thailand.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/buddha-statue-in-thailand.jpg");
+        background-size: cover;
+    }
+}
+
+.vietnam-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-420px/people-boating-in-vietnam.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-820px/tinified/people-boating-in-vietnam.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/international/banner-1280px/tinified/people-boating-in-vietnam.jpg");
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+// Domestic Destination Banners
+
+.almora-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/terrace-farming-in-almora.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/terrace-farming-in-almora.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/terrace-farming-in-almora.jpg");
+        background-size: cover;
+    }
+}
+
+.auli-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/snow-mountains-in-auli.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/snow-mountains-in-auli.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/snow-mountains-in-auli.jpg");
+        background-size: cover;
+    }
+}
+
+.chakrata-banner {
+    @media (max-width:480px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-420px/trees-in-chakrata.jpg");
+            background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-820px/trees-in-chakrata.jpg");
+            background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-1280px/trees-in-chakrata.jpg");
+            background-size: cover;
+    }
+}
+
+.chamoli-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/mountains-in-chamoli.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/mountains-in-chamoli.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/mountains-in-chamoli.jpg");
+        background-size: cover;
+    }
+}
+
+.corbett-national-park-banner {
+    @media (max-width:480px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-420px/sunlight-through-trees.jpg");
+            background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-820px/sunlight-through-trees.jpg");
+            background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+            linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+            no-repeat center url("../img/domestic/banner-1280px/sunlight-through-trees.jpg");
+            background-size: cover;
+    }
+}
+
+.kausani-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/clouds-over-mountain-in-kausani.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/clouds-over-mountain-in-kausani.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/clouds-over-mountain-in-kausani.jpg");
+        background-size: cover;
+    }
+}
+
+.lansdowne-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/scenic-view-of-lansdowne.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/scenic-view-of-lansdowne.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/scenic-view-of-lansdowne.jpg");
+        background-size: cover;
+    }
+}
+
+.munsiyari-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/fog-in-forest-munsiyari.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/fog-in-forest-munsiyari.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/fog-in-forest-munsiyari.jpg");
+        background-size: cover;
+    }
+}
+.mussoorie-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/scenic-mountain-range-mussoorie.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/scenic-mountain-range-mussoorie.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/scenic-mountain-range-mussoorie.jpg");
+        background-size: cover;
+    }
+}
+
+.nainital-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/clouds-over-green-mountain-nainital.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/clouds-over-green-mountain-nainital.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/clouds-over-green-mountain-nainital.jpg");
+        background-size: cover;
+    }
+}
+
+.rishikesh-banner {
+    @media (max-width:480px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-420px/colourful-mountains-rishikesh.jpg");
+        background-size: cover;
+    }
+    @media (max-width:1080px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-820px/colourful-mountains-rishikesh.jpg");
+        background-size: cover;
+    }
+    @media (min-width:1081px) {
+        background: 
+        linear-gradient(to right, rgba(black, 0.9), rgba(black, 0.3)),
+        no-repeat center url("../img/domestic/banner-1280px/colourful-mountains-rishikesh.jpg");
+        background-size: cover;
+    }
+}

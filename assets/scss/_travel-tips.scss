@@ -1,0 +1,109 @@
+
+body {
+
+    .travel-tips {
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // flex-wrap: wrap;
+
+        .travel-tips-banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 90px;
+            width: 100%;
+            height: 260px;
+            max-height: 260px;
+
+            @media (max-width:480px) {
+                height: 230px;
+                height: 230px;
+            }
+
+
+            @media (max-width:600px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/page-banners/640px/travel-documents.jpg");
+                background-size: cover;
+            }
+
+            @media (min-width:601px) and (max-width:1400px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/page-banners/1280px/travel-documents.jpg");
+                background-size: cover;
+            }
+
+            @media (min-width:1401px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/page-banners/1920px/travel-documents.jpg");
+                background-size: cover;
+            }
+
+            h1 {
+                color: white;
+                font-size: 3rem;
+            }
+        }
+
+        .travel-tips-content {
+            // width: 90%;
+            max-width: 1400px;
+            padding: 0rem 2rem;
+
+            .visa, .luggage, .general {
+                display: flex;
+                flex-direction: column;
+                // flex-wrap: wrap;
+                background-color: white;
+                // border: 1px solid black;
+                border-radius: 10px;
+                padding: 2rem 1rem;
+                margin: 5rem 0rem;
+                width: 80vw;
+                // max-width: 1400px;
+                max-width: 1280px;
+                // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+                // box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            }
+    
+            span {
+                color: $logo-blue;
+                // margin: 1rem 0rem;
+                // font-size: 1.5rem;
+                font-size: 1.75rem;
+                font-weight: 600;
+                padding: 1rem;
+            }
+    
+            .accordion-content {
+                padding: 0rem 2rem;
+                display: flex;
+                flex-direction: column;
+                // flex-wrap: wrap;
+                // max-width: 1400px;
+                // width: 90vw;
+    
+                li {
+                    // list-style-type: decimal;
+                    list-style-type:disc;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    
+                    
+                }
+
+                li::marker {
+                    color: $logo-blue;
+                  }
+            }
+        }
+    }
+}
