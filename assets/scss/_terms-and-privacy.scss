@@ -1,0 +1,89 @@
+body {
+
+    .terms-and-conditions, .privacy-policy {
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        // max-width: 1400px;
+
+        .terms-and-conditions-content, .privacy-policy-content {
+            width: 100%;
+            max-width: 1280px;
+            padding: 0rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: 2.5rem;
+                text-align: center;
+                padding: 2rem 1rem;
+                text-decoration: underline 2px solid black;
+                text-underline-offset: 10px;
+            }
+
+            .effective-date { 
+                width: 100%;
+                text-align: left;
+                padding: 0rem 1.25rem;
+                margin-bottom: 1rem;
+
+                strong {
+                    font-size: 1.25rem;
+                }
+            }
+
+            p {
+                padding: 0px 20px;
+                margin-bottom: 1.5rem;
+            }
+
+            .outer-list {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 2.5rem;
+
+                h2 {
+                    margin-top: 1rem;
+                    margin-bottom: 0.75rem;
+                }
+                
+                li {
+                    margin-left: 1.5rem;
+                    
+                    .inner-list {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.5rem;
+
+                        li {
+                            list-style-type: disc;
+                            list-style-position: outside;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width:500px) {
+
+                h1, .effective-date, p {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-left: 0px;
+                }
+
+                .outer-list {
+                    li {margin-left: 0rem;}
+                }
+
+                .inner-list {
+                    li {margin-left: 1rem;}
+                }
+            }
+        }
+    }   
+}
