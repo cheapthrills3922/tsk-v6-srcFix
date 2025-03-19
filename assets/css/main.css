@@ -2220,6 +2220,105 @@ body .destination .destination-content .content-aside ul a:hover {
     display: block;
   }
 }
+body .terms-and-conditions, body .privacy-policy {
+  background-color: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+}
+body .terms-and-conditions .terms-and-conditions-content, body .terms-and-conditions .privacy-policy-content, body .privacy-policy .terms-and-conditions-content, body .privacy-policy .privacy-policy-content {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .terms-and-conditions .terms-and-conditions-content h1, body .terms-and-conditions .privacy-policy-content h1, body .privacy-policy .terms-and-conditions-content h1, body .privacy-policy .privacy-policy-content h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  -webkit-text-decoration: underline 2px solid black;
+          text-decoration: underline 2px solid black;
+  text-underline-offset: 10px;
+}
+body .terms-and-conditions .terms-and-conditions-content .effective-date, body .terms-and-conditions .privacy-policy-content .effective-date, body .privacy-policy .terms-and-conditions-content .effective-date, body .privacy-policy .privacy-policy-content .effective-date {
+  width: 100%;
+  text-align: left;
+  padding: 0rem 1.25rem;
+  margin-bottom: 1rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .effective-date strong, body .terms-and-conditions .privacy-policy-content .effective-date strong, body .privacy-policy .terms-and-conditions-content .effective-date strong, body .privacy-policy .privacy-policy-content .effective-date strong {
+  font-size: 1.25rem;
+}
+body .terms-and-conditions .terms-and-conditions-content p, body .terms-and-conditions .privacy-policy-content p, body .privacy-policy .terms-and-conditions-content p, body .privacy-policy .privacy-policy-content p {
+  padding: 0px 20px;
+  margin-bottom: 1.5rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .outer-list, body .terms-and-conditions .privacy-policy-content .outer-list, body .privacy-policy .terms-and-conditions-content .outer-list, body .privacy-policy .privacy-policy-content .outer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2.5rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .outer-list h2, body .terms-and-conditions .privacy-policy-content .outer-list h2, body .privacy-policy .terms-and-conditions-content .outer-list h2, body .privacy-policy .privacy-policy-content .outer-list h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .outer-list li, body .terms-and-conditions .privacy-policy-content .outer-list li, body .privacy-policy .terms-and-conditions-content .outer-list li, body .privacy-policy .privacy-policy-content .outer-list li {
+  margin-left: 1.5rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .outer-list li .inner-list, body .terms-and-conditions .privacy-policy-content .outer-list li .inner-list, body .privacy-policy .terms-and-conditions-content .outer-list li .inner-list, body .privacy-policy .privacy-policy-content .outer-list li .inner-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+body .terms-and-conditions .terms-and-conditions-content .outer-list li .inner-list li, body .terms-and-conditions .privacy-policy-content .outer-list li .inner-list li, body .privacy-policy .terms-and-conditions-content .outer-list li .inner-list li, body .privacy-policy .privacy-policy-content .outer-list li .inner-list li {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+@media (max-width: 500px) {
+  body .terms-and-conditions .terms-and-conditions-content h1, body .terms-and-conditions .terms-and-conditions-content .effective-date, body .terms-and-conditions .terms-and-conditions-content p, body .terms-and-conditions .privacy-policy-content h1, body .terms-and-conditions .privacy-policy-content .effective-date, body .terms-and-conditions .privacy-policy-content p, body .privacy-policy .terms-and-conditions-content h1, body .privacy-policy .terms-and-conditions-content .effective-date, body .privacy-policy .terms-and-conditions-content p, body .privacy-policy .privacy-policy-content h1, body .privacy-policy .privacy-policy-content .effective-date, body .privacy-policy .privacy-policy-content p {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+  body .terms-and-conditions .terms-and-conditions-content .outer-list li, body .terms-and-conditions .privacy-policy-content .outer-list li, body .privacy-policy .terms-and-conditions-content .outer-list li, body .privacy-policy .privacy-policy-content .outer-list li {
+    margin-left: 0rem;
+  }
+  body .terms-and-conditions .terms-and-conditions-content .inner-list li, body .terms-and-conditions .privacy-policy-content .inner-list li, body .privacy-policy .terms-and-conditions-content .inner-list li, body .privacy-policy .privacy-policy-content .inner-list li {
+    margin-left: 1rem;
+  }
+}
+
 body .travel-tips {
   background-color: #eeeeee;
   display: -webkit-box;
