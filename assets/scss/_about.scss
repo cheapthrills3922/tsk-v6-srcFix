@@ -19,27 +19,30 @@ body {
 
             @media (max-width:480px) {
                 height: 230px;
-                height: 230px;
-            }
-
-            @media (max-width:600px) {
                 background: 
                 linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
-                no-repeat center url("../img/main-pages/page-banners/640px/people-shilouette.jpg");
+                no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/people-shilouette.jpg");
                 background-size: cover;
             }
 
-            @media (min-width:601px) and (max-width:1400px) {
+            @media (min-width:481px) and (max-width:1000px) {
                 background: 
                 linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
-                no-repeat center url("../img/main-pages/page-banners/1280px/people-shilouette.jpg");
+                no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/people-shilouette.jpg");
                 background-size: cover;
             }
 
-            @media (min-width:1401px) {
+            @media (min-width:1001px) and (max-width:1600px) {
                 background: 
                 linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
-                no-repeat center url("../img/main-pages/page-banners/1920px/people-shilouette.jpg");
+                no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/people-shilouette.jpg");
+                background-size: cover;
+            }
+
+            @media (min-width:1601px) {
+                background: 
+                linear-gradient( to right,rgba(black, 0.9),rgba(black, 0.3) ), 
+                no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/people-shilouette.jpg");
                 background-size: cover;
             }
 

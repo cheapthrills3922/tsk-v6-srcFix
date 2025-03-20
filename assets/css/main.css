@@ -684,27 +684,29 @@ body .about .about-banner {
 @media (max-width: 480px) {
   body .about .about-banner {
     height: 230px;
-    height: 230px;
-  }
-}
-@media (max-width: 600px) {
-  body .about .about-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/640px/people-shilouette.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/640px/people-shilouette.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/people-shilouette.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/people-shilouette.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 601px) and (max-width: 1400px) {
+@media (min-width: 481px) and (max-width: 1000px) {
   body .about .about-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1280px/people-shilouette.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1280px/people-shilouette.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/people-shilouette.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/people-shilouette.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 1401px) {
+@media (min-width: 1001px) and (max-width: 1600px) {
   body .about .about-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1920px/people-shilouette.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1920px/people-shilouette.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/people-shilouette.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/people-shilouette.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1601px) {
+  body .about .about-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/people-shilouette.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/people-shilouette.jpg");
     background-size: cover;
   }
 }
@@ -1129,27 +1131,29 @@ body .destinations .destinations-banner {
 @media (max-width: 480px) {
   body .destinations .destinations-banner {
     height: 230px;
-    height: 230px;
-  }
-}
-@media (max-width: 600px) {
-  body .destinations .destinations-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/640px/world-map.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/640px/world-map.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/world-map.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/world-map.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 601px) and (max-width: 1400px) {
+@media (min-width: 481px) and (max-width: 1000px) {
   body .destinations .destinations-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1280px/world-map.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1280px/world-map.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/world-map.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/world-map.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 1401px) {
+@media (min-width: 1001px) and (max-width: 1600px) {
   body .destinations .destinations-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1920px/world-map.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1920px/world-map.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/world-map.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/world-map.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1601px) {
+  body .destinations .destinations-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/world-map.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/world-map.jpg");
     background-size: cover;
   }
 }
@@ -2350,27 +2354,29 @@ body .travel-tips .travel-tips-banner {
 @media (max-width: 480px) {
   body .travel-tips .travel-tips-banner {
     height: 230px;
-    height: 230px;
-  }
-}
-@media (max-width: 600px) {
-  body .travel-tips .travel-tips-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/640px/travel-documents.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/640px/travel-documents.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/travel-documents.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/travel-documents.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 601px) and (max-width: 1400px) {
+@media (min-width: 481px) and (max-width: 1000px) {
   body .travel-tips .travel-tips-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1280px/travel-documents.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1280px/travel-documents.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/travel-documents.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/travel-documents.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 1401px) {
+@media (min-width: 1001px) and (max-width: 1600px) {
   body .travel-tips .travel-tips-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1920px/travel-documents.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1920px/travel-documents.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/travel-documents.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/travel-documents.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1601px) {
+  body .travel-tips .travel-tips-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/travel-documents.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/travel-documents.jpg");
     background-size: cover;
   }
 }
@@ -2459,27 +2465,29 @@ body {
 @media (max-width: 480px) {
   .contact .contact-banner {
     height: 230px;
-    height: 230px;
-  }
-}
-@media (max-width: 600px) {
-  .contact .contact-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/640px/office-interiors.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/640px/office-interiors.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/office-interiors.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-420px/tinified/office-interiors.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 601px) and (max-width: 1400px) {
+@media (min-width: 481px) and (max-width: 1000px) {
   .contact .contact-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1280px/office-interiors.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1280px/office-interiors.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/office-interiors.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-820px/tinified/office-interiors.jpg");
     background-size: cover;
   }
 }
-@media (min-width: 1401px) {
+@media (min-width: 1001px) and (max-width: 1600px) {
   .contact .contact-banner {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/1920px/office-interiors.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/1920px/office-interiors.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/office-interiors.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1200px/tinified/office-interiors.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1601px) {
+  .contact .contact-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/office-interiors.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/main-pages/page-banners/banner-1600px/tinified/office-interiors.jpg");
     background-size: cover;
   }
 }
