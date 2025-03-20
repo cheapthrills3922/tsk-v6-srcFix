@@ -1374,6 +1374,28 @@ body .destinations .domestic .cards .card a span, body .destinations .internatio
 }
 
 @media (max-width: 480px) {
+  .bhutan-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-420px/dzong-monastery-in-bhutan.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-420px/dzong-monastery-in-bhutan.jpg");
+    background-size: cover;
+  }
+}
+@media (max-width: 1080px) {
+  .bhutan-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-820px/tinified/dzong-monastery-in-bhutan.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-820px/tinified/dzong-monastery-in-bhutan.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1081px) {
+  .bhutan-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-1280px/tinified/dzong-monastery-in-bhutan.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-1280px/tinified/dzong-monastery-in-bhutan.jpg");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
   .dubai-banner {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-420px/cityscape-with-burj-khalifa.jpg");
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-420px/cityscape-with-burj-khalifa.jpg");
@@ -1479,6 +1501,28 @@ body .destinations .domestic .cards .card a span, body .destinations .internatio
   .mauritius-banner {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-1280px/tinified/sunrise-view-from-a-resort.jpg");
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-1280px/tinified/sunrise-view-from-a-resort.jpg");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .nepal-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-420px/snow-covered-mountain-in-nepal.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-420px/snow-covered-mountain-in-nepal.jpg");
+    background-size: cover;
+  }
+}
+@media (max-width: 1080px) {
+  .nepal-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-820px/tinified/snow-covered-mountain-in-nepal.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-820px/tinified/snow-covered-mountain-in-nepal.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 1081px) {
+  .nepal-banner {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), no-repeat center url("../img/international/banner-1280px/tinified/snow-covered-mountain-in-nepal.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), no-repeat center url("../img/international/banner-1280px/tinified/snow-covered-mountain-in-nepal.jpg");
     background-size: cover;
   }
 }
